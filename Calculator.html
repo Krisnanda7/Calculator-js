@@ -8,15 +8,16 @@
     <title>Calculator JS External</title>
 </head>
 <body>
-    <h1>Website Calcualator Using HTML, CSS, JS External By Krisnanda</h1>
+    <h1>Website Calcualator Using HTML, CSS, JS External</h1>
     <div class="container">
         <div class="calculator">
-            <input id="display" readonly>
+            <label for="display" id="labeldisplay">:</label>
+            <input id="display" id="display" readonly>
             <div class="buttons">
                 <button onclick="clearDisplay()" class="operator">AC</button>
                 <button onclick="deleteLastChar()" class="operator">DEL</button>
-                <button onclick="appendToDisplay()" class="operator">%</button>
-                <button onclick="appendToDisplay()" class="operator">/</button>
+                <button onclick="appendToDisplay('%')" class="operator">%</button>
+                <button onclick="appendToDisplay('/')" class="operator">/</button>
                 <button onclick="appendToDisplay('7')">7</button>
                 <button onclick="appendToDisplay('8')">8</button>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
                 <button onclick="appendToDisplay('9')">9</button>
